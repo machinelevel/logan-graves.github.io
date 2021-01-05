@@ -29,9 +29,16 @@
 
         <div id="filters-div">
           <p id="filter-by-text"> Filter By: </p>
-          <div id="subject-filter-button"> subject </div>
-          <div id="grade-filter-button"> grade </div>
+
+          <!-- Hi Logan! EJ here. I just added the "oclick" here to call my table-making function in script.js -->
+          <div id="subject-filter-button" onclick="make_table('subject');"> subject </div>
+          <div id="grade-filter-button" onclick="make_table('grade');"> grade </div>
         </div>
+
+        <!-- Hi Logan! EJ here. I just added these 3 lines. The JS just inserts a table into this span -->
+        <br/>
+        <span id="my_table"></span>
+        <br/>
 
         <div class="content-outer">
           <div class="content-inner">
